@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        
+        "esModuleInterop": true,
+        "allowJs": false,
+        "removeComments": true,        
+        
+        /* Additional Checks */
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true
+    },
+
+    "include": ["**/*.ts"]
+}
